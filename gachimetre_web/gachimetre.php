@@ -58,7 +58,7 @@ libs/jquery/1.3.0/jquery.min.js"></script>
 			    $("#refresh").load("refresh.php");
 			    var refreshId = setInterval(function () {
 			        $("#refresh").load("refresh.php");
-			    }, 1000000000);
+			    }, 1000);
 			    $.ajaxSetup({
 			        cache: false
 			    });
@@ -70,7 +70,7 @@ libs/jquery/1.3.0/jquery.min.js"></script>
 			    $("#refreshWeek").load("refreshWeek.php");
 			    var refreshId = setInterval(function () {
 			        $("#refreshWeek").load("refreshWeek.php");
-			    }, 1000000000);
+			    }, 1000);
 			    $.ajaxSetup({
 			        cache: false
 			    });

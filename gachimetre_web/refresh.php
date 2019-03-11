@@ -11,8 +11,7 @@ $res_dernier_gachis = pdoGachimetre::getDernierGachis(); ?>
 			<div class="dernierPoids">
 				<span class="nbrDernierPoids">
 					<!-- Affichage du poids du dernier bout de pain jeté -->
-					<p id="refreshPara"><?php echo $res_dernier_gachis[0]['poids']; ?> g</p>
-					<img src="images/emoteBien.png" alt="Emote bien" height="80%" width="80%">
+					<p id="refreshPara"><?php echo $res_dernier_gachis[0]['poids']; ?> g <img class="smiley" src="images/emoteBien.png"></p>
 				</span>
 			</div>
 		</div>
@@ -24,8 +23,7 @@ $res_dernier_gachis = pdoGachimetre::getDernierGachis(); ?>
 			<div style="background-color: #ff4500;" class="dernierPoids">
 				<span class="nbrDernierPoids">
 					<!-- Affichage du poids du dernier bout de pain jeté -->
-					<p id="refreshPara"><?php echo $res_dernier_gachis[0]['poids']; ?> g</p>
-					<img src="images/emoteBof.png" alt="Emote bof" height="80%" width="80%">
+					<p id="refreshPara"><?php echo $res_dernier_gachis[0]['poids']; ?> g <img class="smiley" src="images/emoteBof.png"></p>
 				</span>
 			</div>
 		</div>
@@ -37,8 +35,8 @@ $res_dernier_gachis = pdoGachimetre::getDernierGachis(); ?>
 			<div style="background-color: #ff0f00;" class="dernierPoids">
 				<span class="nbrDernierPoids">
 					<!-- Affichage du poids du dernier bout de pain jeté -->
-					<p id="refreshPara"><?php echo $res_dernier_gachis[0]['poids']; ?> g</p>
-					<img src="images/emotePasBien.png" alt="Emote pas bien" height="80%" width="80%">
+					<p id="refreshPara"><?php echo $res_dernier_gachis[0]['poids']; ?> g <img class="smiley" src="images/emotePasBien.png"></p>
+					
 				</span>
 			</div>
 		</div>

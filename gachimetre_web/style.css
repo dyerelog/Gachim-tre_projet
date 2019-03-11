@@ -2,7 +2,7 @@ div{
 	background-color: #4bd53a;
 	display: inline-block;
 	width: 48%;
-	height: 38%;
+	height: 400px;
 	text-align: center;
 	border-radius: 5px;
 	opacity: 0.92;
@@ -10,15 +10,29 @@ div{
 
 section{
 	display: inline-block;
-	margin-top: 10%;
+	margin-top: 100px;
 }
 
 .cumulJournee{
-	margin-right: 7%;
+	margin-right: 50px;
 }
 
 .cumulSemaine{
-	margin-right: 7%;
+	margin-right: 50px;
+}
+
+#refreshPara{
+	margin-top: 110px;
+	text-align: left;
+	margin-left: 80px;
+}
+
+.smiley{
+	float: right;
+	height: 300px;
+	width: 300px;
+	margin-right: 79px;
+	margin-top: -63px;
 }
 
 .divGauche{
@@ -39,7 +53,7 @@ section{
 }
 
 .dernierGachis{
-	margin-top: 20%;
+	margin-top: 100px;
 }
 
 .poidsJournee{
@@ -61,16 +75,16 @@ section{
 }
 
 .nbrDernierPoids{
-	width: 50%;
-	float : left;
+	width: 100%;
+	display:inline-block;
 }
 
 .graphe{
 	background-color: #c6efc1;
 	width: 97.7%;
-	height: 55%;
+	height: 400px;
 	margin-left: 1.5%;
-	margin-top : 2%;
+	margin-top : 10px;
 	color: #555;
 	text-align: center;
 	border: 2px solid #307328;
